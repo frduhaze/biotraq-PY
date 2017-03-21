@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: biotraq-PY
+  host: biotraq-PY
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-vh
+  - Auto-Scaling-kp
